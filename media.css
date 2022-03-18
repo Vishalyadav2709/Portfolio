@@ -1,0 +1,181 @@
+@media (max-width:1600px){
+    .about .about-content .left-content {
+        width: 45%;
+    }
+    .button1 button{
+        margin-left: 40%;
+    }
+}
+@media (max-width:1400px){
+    .about .about-content .left-content {
+        width: 49%;
+    }
+}
+@media (max-width:1200px){
+    .about .about-content .left-content {
+        width: 54%;
+    }
+}
+@media (max-width:1000px){
+    .devpic{
+        display: none;
+    }
+    .myintro {
+        margin-left: -30px;
+        margin-top: 140px;
+      }
+      .devinfo{
+        margin-left: 50px;
+      }
+    .hello{
+        font-size: 47px;
+    }
+    .name{
+        font-size: 40px;
+    }
+    .about{
+        font-size: 30px;
+    }
+    .moreabout{
+        font-size: 21px;
+    }
+    .button button{
+        font-size: 20px;
+    }
+    .button1 button{
+        font-size: 20px;
+    }
+    .contactform{
+        margin:0 7px;
+    }
+    .contactform h1{
+        font-size: 34px;
+    }
+    .contactform form div{
+        font-size: 22px;
+    }
+    #Clientname, #Clientname, #Clientphone, #Query,#Clientemail{
+        width: 500px;
+    }
+    .about .about-content .left-content {
+        width: 60%;
+    }
+}
+@media (max-width:800px){
+    .about .about-content .left-content {
+        width: 85%;}
+        .button1 button{
+            font-size: 20px;
+            margin-left: 125px;
+        }
+    }
+    @media (max-width:650px){
+        .button1 button{
+            font-size: 20px;
+            margin-left: 85px;
+        }
+    }
+    @media (max-width:650px){
+        .about .about-content .left-content {
+            width: 85%;}
+            .about .about-content .left-content .leftimg {
+                height: 340px;
+                width: 340px;
+                
+            }
+            
+        }
+@media (max-width:600px) {
+    .devpic{
+        display: none;
+    }
+  .myintro {
+    margin-left: -30px;
+    margin-top: 236px;
+  }
+  .devinfo{
+    margin-left: 50px;
+  }
+.hello{
+    font-size: 47px;
+}
+.name{
+    font-size: 40px;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 21px;
+}
+.button1 button{
+    font-size: 15px;
+   
+}
+#Clientname, #Clientname, #Clientphone, #Query,#Clientemail{
+    width: 353px;
+}
+.contactform form div{
+    font-size: 22px;
+}
+.contactform h1 {
+    font-size: 23px;
+    width: 400px;
+}
+#emailHelp{
+    font-size: 12px;
+    width: 300px;
+}
+#check {
+    width: 337px;
+}
+.contactform{
+    margin:0 -23px;
+}
+.about .about-content .left-content {
+    width: 95%;
+}
+.title1{
+    font-size: 2rem;
+}
+}
+
+
+@media only screen and (max-width: 599px) and (min-width: 375px) {
+    .myintro {
+        margin-left: -30px;
+        margin-top: 123px;
+      }
+}
+
+@media (max-width:500px){
+    .about .about-content .left-content {
+        width: 90%;
+    }
+    .about .about-content .left-content .leftimg {
+        height: 200px;
+        width:200px;
+    }
+}
+@media (max-width:460px){
+    .button1 button{
+        font-size: 20px;
+        margin-left: 37px;
+    
+    }
+    .title1{
+        font-size: 1rem;
+    }
+}
+@media (max-width:320px){
+    .about .about-content .left-content {
+        width: 110%;
+    }
+    .title1{
+        font-size: 1rem;
+    }
+    .button1 button{
+        font-size: 20px;
+        margin-left: 12px;
+    }
+}

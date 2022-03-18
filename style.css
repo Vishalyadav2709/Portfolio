@@ -1,0 +1,502 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Ubuntu:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+   /* background-color: red;*/
+   background-color: rgb(128, 128, 128);
+    width: 200px;
+    height: 100%;
+    transition: 0.3s ease-in;
+    position: fixed;
+}
+#scrollbar{
+        margin:4px, 4px;
+        padding:4px;
+        
+       
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align:justify;
+    
+}
+.sidebar nav{
+    padding: 45px;
+    
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0px;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.follow {
+    font-size: 3.5rem;
+    color: white;
+    margin: 2.7rem;
+    margin-top: 0;
+}
+.main{
+   /* background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.myintro{
+   /* background-color: rgb(255, 0, 212);*/
+    height: 70vh;
+    width: 95vw;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 165px;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+.hello{
+font-size: 75px;
+font-family: 'Exo 2', sans-serif;
+margin-left: 50px;
+}
+.name{
+font-size: 65px;
+font-weight: bold;
+margin-left: 50px;
+
+}
+.about_dev{
+font-size: 55px;
+margin-left: 50px;
+}
+.moreabout{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.button{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.button button{
+
+font-size: 25px;
+padding: 15px;
+border-radius: 55px;
+color: white;
+background-color: #36ac93;;
+    /* font-size: 18px; */
+    margin: 15px;
+    cursor: pointer;
+    
+}
+.button1 button{
+
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 55px;
+    color: white;
+    background-color: #36ac93;;
+        /* font-size: 18px; */
+        margin: 15px;
+        cursor: pointer;
+        margin-left: 40%;
+    }
+.button button:hover{
+    background-color: white;
+    color: #36ac93;;
+}
+.button1 button:hover{
+    background-color: white;
+    color: #36ac93;;
+}
+.devpic img{
+    height: 70vh;
+}
+
+.contactform{
+    font-family: 'Exo 2', sans-serif;  
+    padding: 0 50px;
+    padding-top: 50px;
+    font-size: 30px;
+   margin: 0 100px;
+}
+.contactform h1{
+padding: 12px 0px;
+}
+.contactform form div{
+    padding: 18px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#Clientemail{
+    width: 785px;
+    height: 25px;
+    font-size: large;
+    border-radius: 12px;
+    margin: 7px 0px;
+    padding: 6px;
+}
+#Clientname{
+    width: 785px;
+    height: 25px;
+    font-size: large;
+    border-radius: 12px;
+    margin: 7px 0px;
+    padding: 6px;
+}
+#emailHelp{
+    color: rgb(255, 102, 0);
+    font-size: 17px;
+    margin: 0px 5px;
+    padding: 3px 0 0 0;
+}
+#isclient{
+    font-size: 500px;
+    width: 30px;
+    height: 20px;
+    margin: 12px;
+}
+#check{
+    flex-direction: row;
+}
+#submit{
+    height: 40px;
+    width: 270px;
+    border-radius: 45px;
+    cursor: pointer;
+    color: white;
+    background-color: #36ac93;
+    font-size: large;
+}
+#submit:hover{
+    background-color: white;
+    color: #36ac93;
+    font-size: large;
+}
+#Clientphone{
+    width: 785px;
+    height: 25px;
+    font-size: large;
+    border-radius: 12px;
+    margin: 7px 0px;
+    padding: 6px;
+}
+#Query{
+    width: 785px;
+    height: 80px;
+    border-radius: 12px;
+    font-size: large;
+    margin: 7px 0px;
+    padding: 6px;
+
+}
+.sidebargo{
+    transform: translate(-343px,0px);
+    position: fixed;
+}
+.hamburger{
+    position: fixed;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.close{
+    margin-left: 155px;
+    margin-top: 10px;
+}
+.ham{
+    margin: 10px 10px;
+}
+
+.image {
+    display: flex;
+    background-color: red;
+    height: 30vh;
+    width: 37vh;
+    justify-content: normal;
+    padding: 32px;
+    margin: 33px;
+    margin-left: 384px;
+    border-radius: 50%;
+}
+
+.head{
+display: flex;
+background-color: yellow;
+
+}
+.experience{
+display: grid;
+background-color: blue;
+}
+
+/* Intro/about Section */
+section{
+    padding: 100px,0px;
+}
+/* .tittle{
+    margin-top: 40px;
+} */
+.about{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+
+}
+.about .tittle{
+    /* position: relative; */
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+   font-size: 51px;
+   font-weight: 500;
+margin-bottom: 63px;
+margin-top: 30px;
+padding-bottom: 20px;
+}
+.about .tittle::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.about .tittle::after {
+    content: "Who I am";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    font-size: 20px;
+    padding: 14px;
+    color: crimson;
+    height: 3px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+.about .about-content .left-content .leftimg {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 243px;
+    margin-bottom: 55px;
+    margin-left: 75px;
+    border: solid;
+}
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .left-content{
+    width: 35%;
+}
+.about .about-content .right-content{
+    width: 87%;
+}
+.about .about-content .right-content .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right-content span{
+    color: crimson;
+}
+.about .about-content .right-content p{
+    text-align: justify;
+    font-size: 35px;
+}
+/* experience section */
+.about .about-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .about-content .img-content{
+    width: 30%;
+}
+.about .about-content .name-content{
+    width: 30%;
+}
+.about .about-content .des-content{
+    width: 30%;
+}
+.about .about-content .duration-content{
+    width: 40%;
+}
+.about1 .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about1 .row .tittle{
+    font-size: 3rem;
+    color: pink;
+    padding: 5rem 0rem;
+}
+.about1 .row .progress_bar{
+    flex: 1 1 40rem;
+    padding: 1rem;
+
+}
+.about1 .row .progress_bar .progress{
+    padding: 1rem 0rem;
+
+}
+.about1 .row .progress_bar .progress h3{
+     display: flex;
+     justify-content: space-between;
+     color: #666;
+     font-size: 2rem;
+
+}
+.about1 .row .progress_bar .progress .bar{
+    height: 1rem;
+    width: 100%;
+    border: .2rem solid pink;
+    border-radius: 5rem;
+    margin: .5rem 0rem;
+}
+.about1 .row .progress_bar .progress .bar span1{
+    display: block;
+    background: rgb(235, 18, 54);
+    border-radius: 5rem;
+    height: 100%;
+}
+.about1 .row .progress_bar .progress:nth-child(2) .bar span1{
+width: 85%;
+}
+.about1 .row .progress_bar .progress:nth-child(3) .bar span1{
+width: 65%;
+}
+.about1 .row .progress_bar .progress:nth-child(4) .bar span1{
+width: 50%;
+}
+.about1 .row .progress_bar .progress:nth-child(5) .bar span1{
+width: 50%;
+}
+.about1 .row .personal_info{
+    flex: 1 1 55rem;
+    padding: 1rem;
+
+}
+
+.about1 .row .personal_info .box_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about1 .row .personal_info .box_container .box{
+    padding: 1rem;
+}
+.about1 .row .personal_info .box_container .box h3{
+font-size: 2rem;
+color: #333;
+padding: 1rem 0;
+
+}
+.about1 .row .personal_info .box_container .box h3 span1{
+color: #36ac93;
+font-size: 1.7rem;
+}
+.title1{
+    font-size: 3rem;
+}
+.footer{
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 2rem;
+    padding: 2.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.footer a{
+    color: rgb(230, 44, 75);
+    text-decoration: none;
+
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+/* Experience page  */
+.heading1 {
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.experience1{
+    margin-top: 3rem;
+}
+.experience1 .box-container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience1 .box-container2 .box{
+    /* position: relative; */
+    flex:1 1 33rem;
+    border-left: .2rem solid rgb(241, 160, 84);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;    
+}
+
+/* .experience1 .box-container2 .box::before{
+    content: '';
+    position: absolute;
+    top:0; left:-1rem;
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+    background:rgb(241,160,84);
+} */
+
+.experience1 .box-container2 .box .content{
+    background:#fff;
+    padding:1.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.experience1 .box-container2 .box .content span{
+    color:rgb(255, 255, 255);
+    font-size: 1.7rem;
+    background-color: rgb(241, 124, 45);
+    border-radius: 50rem;
+    padding:.4rem 1rem;
+}
+
+.experience1 .box-container2 .box .content h3{
+    font-size: 2.5rem;
+    padding:.5rem 0;
+    color:#111;
+}
+
+.experience1 .box-container2 .box .content p{
+    font-size: 1.5rem;
+    color:#666;
+}

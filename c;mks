@@ -1,0 +1,19 @@
+
+<section class="about" id="about">
+            <div class="max-width">
+               <h2 class="tittle">About Me</h2>
+               <div class="about-content">
+                   <div class="left-content">
+                       <img src="vishal.png" alt="" class="leftimg">
+                   </div>
+                   <div class="right-content">
+                       <div class="text">I'am Vishal and I'am a <span>Web Developer</span></div>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quaerat optio officiis harum totam porro recusandae assumenda voluptate facere tempore, quasi dicta soluta placeat sit rerum! Placeat quisquam veniam laudantium!</p>
+                       <div class="button">
+                        <a href="CV.pdf" target="_Blank">
+                        <button>Download CV</button></a>
+                        </div>
+                   </div>
+               </div>
+            </div>
+       </section>
