@@ -14,3 +14,24 @@ document.querySelector('.hamburger').addEventListener("click", ()=>{
        
     }
 })
+/*var form = document.getElementById('form')
+
+form.addEventListener('submit',function(event){
+    event.preventDefault()
+
+    var Clientname = document.getElementById('Clientname').value
+    console.log(Clientname)
+
+    var Clientemail = document.getElementById('Clientemail').value
+    console.log(Clientemail)
+
+
+    var Clientphone = document.getElementById('Clientphone').value
+    console.log(Clientphone)
+
+
+    var Query = document.getElementById('Query').value
+    console.log(Query )
+
+
+})*/

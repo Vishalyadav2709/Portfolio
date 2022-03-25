@@ -11,7 +11,7 @@
 .sidebar{
    /* background-color: red;*/
    background-color: rgb(128, 128, 128);
-    width: 200px;
+    width: 13rem;
     height: 100%;
     transition: 0.3s ease-in;
     position: fixed;
@@ -260,17 +260,20 @@ section{
     margin-left: 10%;
 
 }
-.about .tittle{
+.about .tittle {
     /* position: relative; */
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-   font-size: 51px;
-   font-weight: 500;
-margin-bottom: 63px;
-margin-top: 30px;
-padding-bottom: 20px;
+    font-size: 51px;
+    font-weight: 500;
+    margin-bottom: 63px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.about .tittle::before {
+/* .about .tittle::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -291,7 +294,7 @@ padding-bottom: 20px;
     height: 3px;
     background: #fff;
     transform: translateX(-50%);
-}
+} */
 .about .about-content .left-content .leftimg {
     height: 350px;
     width: 350px;
@@ -419,16 +422,30 @@ padding: 1rem 0;
 color: #36ac93;
 font-size: 1.7rem;
 }
+.left-content{
+   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+}
 .title1{
     font-size: 3rem;
 }
-.footer{
+
+.footer {
     background-color: #f9f9f9;
     color: #333;
     font-size: 2rem;
     padding: 2.5rem 1rem;
     text-align: center;
     text-decoration: none;
+    display: flex;
+    /* position: fixed; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    margin-bottom: 0rem;
 }
 .footer a{
     color: rgb(230, 44, 75);
@@ -499,4 +516,20 @@ font-size: 1.7rem;
 .experience1 .box-container2 .box .content p{
     font-size: 1.5rem;
     color:#666;
+}
+.projectlink button {
+    font-size: 1rem;
+    padding: 9px;
+    border-radius: 2rem;
+    color: white;
+    background-color: #3a9bb1;
+    /* font-size: 18px; */
+    margin: 0.8rem;
+    cursor: pointer;
+    /* margin-left: 0%; */
+    width: 10rem;
+}
+.projectlink  button:hover{
+    background-color: white;
+    color: rgb(0, 162, 255);
 }
