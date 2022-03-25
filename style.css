@@ -317,7 +317,7 @@ section{
     width: 87%;
 }
 .about .about-content .right-content .text{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -326,7 +326,7 @@ section{
 }
 .about .about-content .right-content p{
     text-align: justify;
-    font-size: 35px;
+    font-size: 30px;
 }
 /* experience section */
 .about .about-content{

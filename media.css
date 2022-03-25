@@ -168,6 +168,7 @@
     }
     .about .about-content .right-content {
         width: 20rem;
+        margin-left: 3rem;
     }
     .about .about-content .left-content .leftimg {
         height: 200px;
@@ -190,7 +191,7 @@
     
     }
     .title1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     /* .about {
         margin-left: 13%;
@@ -230,7 +231,7 @@
         width: 20rem;
     }
     .title1{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .button1 button{
         font-size: 20px;
