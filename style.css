@@ -255,10 +255,10 @@ section{
 /* .tittle{
     margin-top: 40px;
 } */
-.about{
-    font-family: 'Poppins', sans-serif;
-    margin-left: 10%;
-
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .about .tittle {
     /* position: relative; */
@@ -432,28 +432,19 @@ font-size: 1.7rem;
 .title1{
     font-size: 3rem;
 }
-
-.footer {
-    background-color: #f9f9f9;
-    color: #333;
-    font-size: 2rem;
-    padding: 2.5rem 1rem;
-    text-align: center;
-    text-decoration: none;
+footer {
+    height: 2.7em;
+    background-color: #c4c4c4;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    bottom: 0%;
+    margin-top: 8rem;
     display: flex;
-    /* position: fixed; */
-    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 6rem;
-    margin-bottom: 0rem;
-}
-.footer a{
-    color: rgb(230, 44, 75);
-    text-decoration: none;
-
-}
-.footer a:hover{
-    text-decoration: underline;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 1.4rem;
+    padding-top: 1.5em;
 }
 
 /* Experience page  */
