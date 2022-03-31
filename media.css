@@ -217,6 +217,17 @@
         width:200px;
         margin-left: 14px;
     }
+   
+}
+@media (max-width:400px){
+    .main{
+        margin-left: 2rem;
+    }
+    footer{
+        width: 27rem;
+        margin-top: 14rem;
+    }
+
 }
 @media (max-width:320px){
     .about .about-content .left-content {
